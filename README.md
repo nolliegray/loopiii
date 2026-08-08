@@ -1,2 +1,2 @@
 # loopiii
-A MIDI looper and recorder for Monome Grid using iii
+A multitrack MIDI looper for Monome Grid using iii
