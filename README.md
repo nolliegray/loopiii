@@ -14,8 +14,8 @@ Loopiii allows for all tracks to be asynchronously or synchronously recorded to 
 Loopiii needs the input of another MIDI device to record notes and events. Combine loopiii with foot switches to control various functions without needing to interact with the grid directly.
 ![Overview](img/loopiii_Overview.png)
 
-## MIDI - Presets & CCs
-**[FF] MIDI Presets**
+## MIDI - Presets & CCs  
+**[FF] MIDI Presets**  
 Presets are only for saving MIDI configurations across all tracks. Presets can be saved by holding a slot for 2 seconds and loaded by pressing a slot.
 
 Presets are numbered 1-8. In diii you will see files that look like this:  
