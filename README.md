@@ -3,8 +3,7 @@ A multitrack MIDI looper for Monome Grid using iii
 
 Current Version 1.0.0
 
-[![loopiii 1.0 demo](img/loopiii_1.0_thumbnail.jpg)](https://www.youtube.com/watch?v=)
-
+[![loopiii 1.0 demo](img/loopiii_1.0_thumbnail.jpg)](https://www.youtube.com/watch?v=46Qxre3MbJ0)
 
 ## Overview
 Loopiii is a 6-track MIDI looper with performance controls. The intuitive UI makes navigation and use as easy as possible without needing to memorize obscure button presses.
