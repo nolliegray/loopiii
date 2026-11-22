@@ -63,7 +63,7 @@ local function draw_text(str, st_x, st_y)
   if not str then return end
   for c = 1, #str do
     local p = font[string.byte(str, c)]
-    if p then for i=1,15 do if string.byte(p, i)==49 then grid_led(st_x+(c-1)*4+((i-1)%3), st_y+flr((i-1)/3), 5) end end end
+    if p then for i=1,15 do if string.byte(p, i)==49 then grid_led(st_x+(c-1)*4+((i-1)%3), st_y+flr((i-1)/3), 10) end end end
   end
 end
 
