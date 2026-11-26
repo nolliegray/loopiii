@@ -1,4 +1,4 @@
--- loopiii v1.0.0
+-- loopiii v1.0.2
 pset_init("loopiii")
 
 local ins, rem = table.insert, table.remove
