@@ -602,12 +602,12 @@ function event_midi(d1, d2, d3)
     local z = d3 > 63 and 1 or 0
     if cc_states[d2] ~= z then
       cc_states[d2] = z
-      if z == 1 then
-        if d2 == 102 then g_play_toggle(); redraw()
-        elseif d2 == 103 then g_reset(); redraw()
+      if d2 == 102 then event_grid(1, 1, z)
+      elseif d2 == 106 then event_grid(6 + curr_trk, 1, z)
+      elseif z == 1 then
+        if d2 == 103 then g_reset(); redraw()
         elseif d2 == 104 then curr_trk = ((curr_trk - 2) % N_TRK) + 1; redraw()
         elseif d2 == 105 then curr_trk = (curr_trk % N_TRK) + 1; redraw()
-        elseif d2 == 106 then toggle_rec(curr_trk); redraw()
         elseif d2 == 107 then t_play_toggle(curr_trk); redraw()
         elseif d2 == 108 then t_reset(curr_trk); redraw()
         elseif d2 == 109 then toggle_mute(curr_trk); redraw()
