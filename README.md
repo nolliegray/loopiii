@@ -1,7 +1,7 @@
 # loopiii
 A multitrack MIDI looper for Monome Grid using iii
 
-Current Version 1.0.1
+Current Version 1.0.2
 
 [![loopiii 1.0 demo](img/loopiii_1.0_thumbnail.jpg)](https://www.youtube.com/watch?v=46Qxre3MbJ0)
 
